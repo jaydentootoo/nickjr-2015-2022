@@ -1,0 +1,138 @@
+if(typeof KIDS == "undefined" || !KIDS) var KIDS = {}; 
+
+KIDS.ads = KIDS.ads?KIDS.ads:{}; 
+
+try{
+KIDS.ads.config = [
+{
+//the default setting for all pages not specified
+"url":"default",
+"text":"default", 
+"gameLoaderCap":"0", 
+"zone":"", 
+"ads" : [ 
+{
+"size": "120x60",
+"elementID": "",
+"keyValues": "excl_cat=parent_limited;site=nick;",
+"dartPercent": "0.0",
+"refreshable": "false",
+"refreshRate": "3.0",
+"yahooAds": "false"
+},
+{ 
+"size":"300x250",
+"elementID":"",
+"keyValues":"excl_cat=parent_limited;site=nick;",
+"dartPercent":"0.0",
+"refreshable":"false",
+"refreshRate":"3.0",
+"yahooAds":"false" 
+}
+] 
+},
+{
+"url": "/games/spongebob-squarepants-bikini-bottom-defenders.html",
+"text": "default",
+"gameLoaderCap": "0",
+"zone": "",
+"ads": [{
+"size": "120x60",
+"elementID": "",
+"keyValues": "sponsor=spongebob2movie;excl_cat=parent_limited;site=nick;",
+"dartPercent": "0.0",
+"refreshable": "false",
+"refreshRate": "3.0",
+"yahooAds": "false"
+}]
+},
+{
+"url": "/videos/playlist/play/kca-2015-you-made-it-happen-playlist.html",
+"text": "default",
+"gameLoaderCap": "0",
+"zone": "",
+"ads": [{
+"size": "120x60",
+"elementID": "",
+"keyValues": "video_id=mpkca;excl_cat=parent_limited;site=nick;",
+"dartPercent": "0.0",
+"refreshable": "false",
+"refreshRate": "3.0",
+"yahooAds": "false"
+}]
+}
+,
+{
+"url": "/videos/playlist/play/kca-2014-slime-moments-playlist.html",
+"text": "default",
+"gameLoaderCap": "0",
+"zone": "",
+"ads": [{
+"size": "120x60",
+"elementID": "",
+"keyValues": "video_id=kca_2014_slime_moments_playlist;excl_cat=parent_limited;site=nick;",
+"dartPercent": "0.0",
+"refreshable": "false",
+"refreshRate": "3.0",
+"yahooAds": "false"
+}]
+}
+];
+KIDS.ads.adloaderHTML5State = {"ads":"off"};
+
+if( document.cookie.indexOf('nick_device=nick-mobile.com') > -1 || 
+document.cookie.indexOf('nick_device=nick-tablet.com') > -1 ) {
+if(typeof(Storage) !== "undefined") {
+if(window.localStorage.getItem('pikachuTest')!==null) {
+KIDS.ads.adloaderHTML5State = {"ads":"on"};
+}
+
+if(window.localStorage.getItem('pikachu')===null) {
+var pikachu;
+var randomNum = Math.floor(Math.random() * 8) + 1;
+KIDS.pikachu = {
+testGroup: null,
+testVar: null,
+pikDefault: 'a',
+pikDefaultVar: null
+};
+switch(randomNum) {
+case 1:
+KIDS.pikachu.testGroup = 'a';
+break;
+case 2:
+KIDS.pikachu.testGroup = 'b';
+break;
+case 3:
+KIDS.pikachu.testGroup = 'c';
+KIDS.pikachu.testVar = 360000;
+break;
+case 4:
+KIDS.pikachu.testGroup = 'd';
+KIDS.pikachu.testVar = 240000;
+break;
+case 5:
+KIDS.pikachu.testGroup = 'e';
+KIDS.pikachu.testVar = 2;
+break;
+case 6:
+KIDS.pikachu.testGroup = 'f';
+KIDS.pikachu.testVar = 3;
+break;
+case 7:
+KIDS.pikachu.testGroup = 'g';
+KIDS.pikachu.testVar = 1;
+break;
+case 8:
+KIDS.pikachu.testGroup = 'h';
+KIDS.pikachu.testVar = 2;
+break; 
+}
+window.localStorage.setItem('pikachu', KIDS.pikachu.testGroup);
+window.localStorage.setItem('pikTestVar', KIDS.pikachu.testVar);
+window.localStorage.setItem('pikDefault', KIDS.pikachu.pikDefault);
+window.localStorage.setItem('pikDefaultVar', KIDS.pikachu.pikDefaultVar);
+}
+}
+}
+}catch(e){}

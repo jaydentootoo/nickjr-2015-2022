@@ -1,0 +1,45 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+TVEAuthOptions = {
+	successScreen: true
+	,elvisSuccessScreen: true
+	,extraMvpd: true
+	,qsText: 'Type in provider name'
+	,fullScreenActivated: false
+	,selectMvpdOverlay: jQuery("<div id='tveapp_selectProvider' class='tveapp_container'><div class='tveapp_header'><a class='tveapp_button tveapp_learnMore'  onclick='TVEAuth.Callback.learnMoreButtonClicked();'>How this works</a><a class='tveapp_button tveapp_close'>Cancel</a></div><div class='tveapp_content'><div class='tveapp_infoImg'></div><div class='tveapp_brandLogo'></div><h4>Select your TV provider or use the search field below</h4><div id='tveapp_searchBox' class='tveapp_searchBox'><span class='tveapp_wrapSearch'><input name='search' type='text' id='tveapp_search' class='tveapp_search' autocomplete='off' onfocus='if(this.value == \"Type in provider name\") { this.value = \"\"; };jQuery(\"#tveapp_selectProvider\").addClass(\"tveapp_searchActivated\");' onblur='this.value=!this.value?\"Type in provider name\":this.value;' value='Type in provider name' /></span></div></div><div class='tveapp_footer'><div id='providersWrapper'></div><div id='extraMvpdWrapper'></div></div></div>")
+	,successOverlay: jQuery("<div id='tveapp_success' class='tveapp_container'><div class='tveapp_header'><a class='tveapp_button tveapp_close' tvecallback='startWatching'>Cancel</a></div><div class='tveapp_content'><div class='tveapp_infoImg'></div><div class='tveapp_successMessage'><h5>You did it!</h5><p>You're logged in with: <span id='tveapp_mvpdLogo'></span></p><div class='tveapp_successImg'></div><p><a class='tveapp_button tveapp_close tveapp_watchNow' tvecallback='startWatching'>Watch Now!</a></p><p>You can <a onclick='TVEAuth.API.signOut();'>log out</a> anytime.</p></div></div></div>")
+	,elvisSuccess: jQuery("<div id='tveapp_elvisSuccess' class='tveapp_container'><div class='tveapp_header'><a class='tveapp_button tveapp_close' tvecallback='startWatching'>Cancel</a></div><div class='tveapp_content'><div class='tveapp_infoImg'></div><div class='tveapp_successMessage'><h5>You did it!</h5><p>You're logged in.</p><div class='tveapp_successImg'></div><p><a class='tveapp_button tveapp_close tveapp_watchNow' tvecallback='startWatching'>Watch Now!</a></p><p>You can <a onclick='TVEAuth.API.signOut();'>log out</a> anytime.</p></div></div><div class='tveapp_copy'>Viacom reserves the right to discontinue access at any time</div></div>")
+	,iframeWrapper: jQuery("<div id='tveapp_iframeWrap' class='tveapp_container tveapp_mSize mvpdWrapBox' style='display:none;'><div class='tveapp_header'><a class='tveapp_button tveapp_goBack'>Back</a><a class='tveapp_button tveapp_close'>Cancel</a></div><div id='mvpddivWrap' class='tveapp_content'></div></div>")
+}
+
+}
+/*
+     FILE ARCHIVED ON 22:04:10 Jul 28, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:31:23 Jun 21, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.821
+  exclusion.robots: 0.035
+  exclusion.robots.policy: 0.02
+  esindex: 0.015
+  cdx.remote: 8.102
+  LoadShardBlock: 170.413 (3)
+  PetaboxLoader3.datanode: 278.343 (5)
+  load_resource: 292.303 (2)
+  PetaboxLoader3.resolve: 164.439 (2)
+*/

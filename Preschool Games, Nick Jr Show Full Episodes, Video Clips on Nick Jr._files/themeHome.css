@@ -1,0 +1,21 @@
+/* -----------------------------------------------DEFAULT THEME----------------------------------------------- *//* color helper classes */.theme .th-primary-c            { color: ; }.theme .th-primary-b            { background-color: ; }.theme .th-primary-light-c      { color: ; }.theme .th-primary-light-b      { background-color: ; }.theme .th-primary-medium-c         { color: ; }.theme .th-primary-medium-b         { background-color: ; }.theme .th-primary-dark-c       { color: ; }.theme .th-primary-dark-b       { background-color: ; }@media screen and (min-height: 500px) and (orientation: landscape), (min-width: 760px) and (orientation: portrait)  {.theme {background-image: url(https://web.archive.org/web/20150728212152im_/http://images.nickjr.com/nickjr/nickjr-web/assets/global/bg-tile-lobby-2x.png?quality=0.75);}}/* -----------------------------------------------MODULES----------------------------------------------- *//* top-navigation module */.theme .sticky-header.is-sticky {background-color: #f5d417;}/* page background colors/gradients */.theme {/* background color */background-color: #f5d417;}@media screen and (min-height: 500px) and (orientation: landscape), (min-width: 760px) and (orientation: portrait)  {.theme {background-image: url(https://web.archive.org/web/20150728212152im_/http://images.nickjr.com/nickjr/nickjr-web/assets/global/bg-tile-lobby-2x.png?quality=0.75); /* fallback */background-image: url(https://web.archive.org/web/20150728212152im_/http://images.nickjr.com/nickjr/nickjr-web/assets/global/bg-tile-lobby-2x.png?quality=0.75), -webkit-gradient(linear, left top, left bottom, from(#f4d63e), to(#f5d417)); /* Saf4+, Chrome */background-image: url(https://web.archive.org/web/20150728212152im_/http://images.nickjr.com/nickjr/nickjr-web/assets/global/bg-tile-lobby-2x.png?quality=0.75), -webkit-linear-gradient(top, #f4d63e, #f5d417); /* Chrome 10+, Saf5.1+ */background-image: url(https://web.archive.org/web/20150728212152im_/http://images.nickjr.com/nickjr/nickjr-web/assets/global/bg-tile-lobby-2x.png?quality=0.75),    -moz-linear-gradient(top, #f4d63e, #f5d417); /* FF3.6+ */background-image: url(https://web.archive.org/web/20150728212152im_/http://images.nickjr.com/nickjr/nickjr-web/assets/global/bg-tile-lobby-2x.png?quality=0.75),      -o-linear-gradient(top, #f4d63e, #f5d417); /* Opera 11.10+ */background-image: url(https://web.archive.org/web/20150728212152im_/http://images.nickjr.com/nickjr/nickjr-web/assets/global/bg-tile-lobby-2x.png?quality=0.75),         linear-gradient(to bottom, #f4d63e, #f5d417); /* W3C */}}/* Go through all possible backgrounds. *//* If a gradient was set, apply both gradient and image to the background. *//* logo image (not currently in use) */.module-property-filters.bottom, .module-property-filters.expanded {background-color: #f5d417;}@media (min-height: 500px) and (orientation: landscape) {.module-property-filters {background-color: #f5d417;}}.theme .sidebar-panel-view-summary {background-color: #f7f7f7;color: #666666;}
+/*
+     FILE ARCHIVED ON 21:21:52 Jul 28, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:31:17 Jun 21, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.509
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 6.662
+  LoadShardBlock: 127.329 (3)
+  PetaboxLoader3.datanode: 140.033 (5)
+  PetaboxLoader3.resolve: 342.885 (3)
+  load_resource: 408.723 (2)
+*/
